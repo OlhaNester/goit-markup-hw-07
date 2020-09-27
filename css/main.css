@@ -369,6 +369,46 @@ textarea:focus {
   fill: #2196f3;
 }
 
+.name-example {
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.name-example .list-title {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0;
+}
+
+.list-example {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+  position: relative;
+}
+
+.example:nth-child(3n) {
+  margin-right: 0;
+}
+
+.picture {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
 .list-feature {
   display: flex;
   flex-wrap: wrap;
@@ -574,25 +614,6 @@ textarea:focus {
   /* background-color: red; */
 }
 
-.name-example {
-  background-color: rgba(47, 48, 58, 0.8);
-  height: 70px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
-
-.name-example .list-title {
-  color: #ffffff;
-  font-weight: 700;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  margin: 0;
-}
-
 .social-item {
   width: 44px;
   height: 44px;
@@ -758,12 +779,6 @@ p {
   margin-bottom: 0;
 }
 
-.picture {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-}
-
 .gallery-picture {
   position: relative;
   overflow: hidden;
@@ -787,21 +802,6 @@ p {
 
 .portfolio .filter + .filter {
   margin-left: 8px;
-}
-
-.list-example {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.example {
-  width: calc((100% - 30px * 2) / 3);
-  margin-right: 30px;
-  position: relative;
-}
-
-.example:nth-child(3n) {
-  margin-right: 0;
 }
 
 .container-adress {
