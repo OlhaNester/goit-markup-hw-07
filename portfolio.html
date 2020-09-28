@@ -13,7 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body class="body">
@@ -60,19 +60,19 @@
       <div class="container-filter">
         <ul class="portfolio list">
           <li class="filter">
-            <button type="button" class="button">Все</button>
+            <button type="button" class="filter-button">Все</button>
           </li>
           <li class="filter">
-            <button type="button" class="button">Веб-сайты</button>
+            <button type="button" class="filter-button">Веб-сайты</button>
           </li>
           <li class="filter">
-            <button type="button" class="button">Приложения</button>
+            <button type="button" class="filter-button">Приложения</button>
           </li>
           <li class="filter">
-            <button type="button" class="button">Дизайн</button>
+            <button type="button" class="filter-button">Дизайн</button>
           </li>
           <li class="filter">
-            <button type="button" class="button">Маркетинг</button>
+            <button type="button" class="filter-button">Маркетинг</button>
           </li>
         </ul>
       </div>
@@ -81,19 +81,23 @@
           <ul class="list-gallery list">
             <li class="gallery">
               <div class="gallery-picture">
-              <a  href="" class="picture"
-                ><img
-                  src="./portfolio_images/img1.jpg"
-                  alt="фото людей"
-                  width="370"
-                />
-              </a>
-              <p class="description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-            </div>
-            <div>
-              <h3 class="name-project">Технокряк</h3>
-              <p class="name-work">Веб-сайт</p>
-            </div>
+                <a href="" class="picture"
+                  ><img
+                    src="./portfolio_images/img1.jpg"
+                    alt="фото людей"
+                    width="370"
+                  />
+                </a>
+                <p class="description">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p>
+              </div>
+              <div>
+                <h3 class="name-project">Технокряк</h3>
+                <p class="name-work">Веб-сайт</p>
+              </div>
             </li>
             <li class="gallery">
               <a href="" class="picture"
@@ -266,10 +270,18 @@
         <form>
           <div class="container-subscribe">
             <label for="email">Подпишитесь на рассылку</label>
-              <div class="input-button">        
-              <input class="input-email" type="email" name="email" id="email" placeholder="Email" />
-              <button type="submit" class="subscribe-button">Подписаться</button>
-                        </div>     
+            <div class="input-button">
+              <input
+                class="input-email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <button type="submit" class="subscribe-button">
+                Подписаться
+              </button>
+            </div>
           </div>
         </form>
       </div>
