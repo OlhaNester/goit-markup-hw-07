@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/mixin";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/clients";
@@ -14,5 +15,6 @@
 @import "./components/subscribe_form";
 @import "./components/social_link";
 @import "./components/adress";
+@import "./components/email_tel";
 @import "./components/footer";
 @import "./base/common";

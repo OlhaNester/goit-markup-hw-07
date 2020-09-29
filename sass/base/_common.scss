@@ -37,18 +37,15 @@ p {
   margin-bottom: 0;
 }
 .nav {
-  display: flex;
-  align-items: center;
+  @include centeredflex(flex);
 }
 
 .item {
-  display: inline-flex;
-  align-items: center;
+  @include centeredflex(inline-flex);
 }
 
 .menu {
-  display: flex;
-  align-items: center;
+  @include centeredflex(flex);
 }
 
 .container-social-list .list-title,

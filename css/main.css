@@ -3,28 +3,6 @@
   border-bottom: 1px solid #eeeeee;
 }
 
-.header .email-tel {
-  color: #757575;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header .email-tel:hover,
-.header .email-tel:focus {
-  color: #2196f3;
-}
-
-.header .email-tel:hover .adress-envelope,
-.header .email-tel:hover .adress-phone {
-  fill: #2196f3;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .accent-logo {
   color: #2196f3;
 }
@@ -821,6 +799,28 @@ footer .social-icon {
   width: 231px;
 }
 
+.header .email-tel {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header .email-tel:hover,
+.header .email-tel:focus {
+  color: #2196f3;
+}
+
+.header .email-tel:hover .adress-envelope,
+.header .email-tel:hover .adress-phone {
+  fill: #2196f3;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -831,14 +831,14 @@ footer .social-icon {
   display: block;
 }
 
+.footer .container {
+  display: flex;
+}
+
 .footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   padding-top: 9px;
-}
-
-.footer .container {
-  display: flex;
 }
 
 .body {

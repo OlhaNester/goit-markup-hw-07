@@ -7,11 +7,11 @@
   display: block;
 }
 
+.footer .container {
+  display: flex;
+}
 .footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   padding-top: 9px;
-}
-.footer .container {
-  display: flex;
 }
