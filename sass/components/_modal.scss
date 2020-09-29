@@ -14,9 +14,10 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
+
+  .modal {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
 }
 
 .modal {
@@ -45,17 +46,15 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  /* outline: none; */
-}
 
-.close-button::after {
-  display: inline-block;
-  content: "";
-  width: 11px;
-  height: 11px;
-  background-image: url("../index_images/icons/close.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-  /* background-color: red; */
+  &::after {
+    display: inline-block;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-image: url("../index_images/icons/close.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
 }

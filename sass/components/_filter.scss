@@ -11,16 +11,16 @@
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filter-button:hover,
-.filter-button:focus {
-  color: #ffffff;
-  background-color: $accent-colour;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-colour;
+  }
 }
 
 .container-filter .list {
-  display: flex;
-  justify-content: center;
+  @include centeredflex(flex);
   margin-top: 94px;
   margin-bottom: 43px;
   margin-left: auto;

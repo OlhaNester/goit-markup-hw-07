@@ -2,16 +2,12 @@
   background-color: $background-footer-hero;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer .adress {
-  display: block;
-}
 
-.footer .container {
-  display: flex;
-}
-.footer .email-tel {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  padding-top: 9px;
+  .adress {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+  }
 }
