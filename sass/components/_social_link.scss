@@ -1,3 +1,9 @@
+.container-social-list {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  margin-top: 12px;
+}
 .social-list {
   display: flex;
   width: 206px;
@@ -6,6 +12,8 @@
   justify-content: space-between;
   margin-left: 32px;
   margin-right: 32px;
+  list-style: none;
+  padding-left: 0;
 }
 .social-item {
   width: 44px;
